@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>소크라테스</title>
+<style>
+    .container{
+        display: flex;
+    flex-direction: column;}
+    header{
+        border: 1px solid gray;
+        height: 200px;
+        padding-left: 20px;
+        padding-top: 100px;
+        text-align: center;
+        color: hotpink;
+        background-image: url('plato_bronze.jpg');
+        background-size: 200px;
+    }
+    header>a:visited{
+        color: deeppink;
+    }
+    nav a:link{
+        color : black;
+    }
+    nav a:visited{
+        color: black;
+    }
+    footer{
+        border: 1px solid gray;
+        padding-left: 20px;
+        text-align: center
+    }
+    .content{
+        display: flex;
+        flex-grow: 1;
+    }
+    .content nav{
+        border-right: 1px solid gray;
+        flex-basis: 200px;
+        padding-right: 20px
+    }
+    #Beautiful{
+        color: deeppink
+    }
+    .content aside{
+        border-left: 1px solid gray;
+        flex-basis: 50px;
+    }
+    nav, aside{
+        flex-shrink: 0;
+    }
+    .content nav ol ul{
+        padding-left: 0px;
+    }
+    .content main{
+        flex-grow: 2;
+        background-image: url('beach-coast-nature-106132.jpg');
+        background-size: cover;
+        color: white
+    }
+    .content main p, div{
+        text-indent: 1em;
+    }
+    .content main div{
+        font-size: 10px; 
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <a href="maingate.html"><h1>Beautiful Plato, Beautiful World</h1></a></header>
+    <section class="content">
+        <nav>
+            <ol>
+                <li><h3>배경지식</h3></li>
+                <ul>
+                    <li><a href="backknow1.html">플라톤의 적:소피스트</a></li>
+                    <li><a href="backknow2.html">소크라테스</a></li>
+                    <li><a href="backknow3.html">플라톤의 저작</a></li>
+                </ul>
+                <li><h3 id="Beautiful">Beautiful World</h3></li>
+                 <ul>
+                    <li><a href="mainargu1.html">질료-형상 이론</a></li>
+                    <li><a href="mainargu2.html">우주의 형성</a></li>
+                    <li><a href="mainargu3.html">플라톤의 인간론</a></li>
+                    <li><a href="mainargu4.html">수학적 조화</a></li>
+                    <li><a href="mainargu5.html">제4원소의 형성<br>플라톤의 정다면체</a></li>
+                    <li><a href="mainargu6.html">부록: 그리스도교 창조론과의 차이점</a></li>
+                </ul>
+            </ol>
+        </nav>
+        <main>
+        <p>보편개념-이것에 의해 개별자를 규정, 보편개념을 통해 확실한 앎을 가질 수 있음->상대주의와 회의주의(앎에 높고 낮음은 없다) 규정</p>
+        <p>행복주의(쾌락주의 비판)<br>
+-좋은 쾌락과 나쁜 쾌락이 있는데 이것을 구별하는 기준은 앎, 지식이고 이것이 윤리적 가치의 본질이다.
+-덕은 앎이다. // (절대적) 옳고 그름을 판별할 수 있는 지식이 덕이다. //logos 중심주의</p>
+        <p>주지주의-앎면 행할 수 있고 행한다 // 지행합일-원리적으로 합치하는 것, 합치시켜야 하는 것이 아니라. <-알면서도 악을 행한다(욕망, 경향성 등)</p>
+        <p>기술 = 앎 = 능력 = 좋음, 가치 = 덕(arete-~을 함에 있어 능함)</p>
+        <p>☆덕 역시도 기술처럼 가르치고 배울 수 있음. 오늘과는 달리 기술적인 의미를 가지고 있기 때문에. 이것이 덕(arete) 개념의 특이성임.
+</p>
+
+
+        </main>
+        <aside>      
+<img src = "plato_athene.jpg" height = 400 alt = "Wonderful Plato" title = "아테네 학당의 플라톤">
+        </aside>
+    </section>
+    <footer>
+        <a href="Big_image.html">Beautiful Plato Big Image</a>
+    </footer>
+</div>
+</body>  
+</html>
